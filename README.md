@@ -19,5 +19,5 @@ Web applications for sequential visualization of algorithms
 3. Ability to change the coordinates of the target node;
 4. Ability to add and remove wall (unwalkable) nodes
 
-#### List of available sorting algorithms:
+#### List of available pathfinding algorithms:
 1. A*
