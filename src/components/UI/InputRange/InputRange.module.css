@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.slider {
+    position: relative;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.output {
+    position: absolute;
+    left: -40px;
+    top: -40px;
+    padding: 7px 10px;
+    background: #3F8EEB;
+    color: #fff;
+    border-radius: 10px 10px 0 10px;
+    font-weight: bold;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.disable{
+    opacity: 0;
+}
+.visible{
+    opacity: 1;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    opacity: 1;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+input:disabled {
+    opacity: 0.4;
+    border: 2px solid red;
+}
+
