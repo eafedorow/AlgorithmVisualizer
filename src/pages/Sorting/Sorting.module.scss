@@ -1,0 +1,27 @@
+
+.sorting {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  &__chart {
+    width: 74%;
+    border-radius: 12px;
+    padding: 20px 20px 20px 0;
+    background-color: #fff;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  margin: 0 auto;
+  column-gap: 15px;
+}
+
+.settings {
+  text-align: center;
+
+  h2 {
+    margin: 0 0 15px 0;
+  }
+}
